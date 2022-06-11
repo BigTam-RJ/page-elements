@@ -24,11 +24,12 @@
     }
 }
 
-@media (min-height: 631px) {
+/* @media (min-height: 631px) {
     .container-menu{
         display: none;
     }
-}
+} */
+
 @media (max-width: 1000px) {
     .container {
         padding: 0px 20px;
@@ -92,6 +93,4 @@
         transform: rotate(45deg);
         top: 8px
     }
-
-  
 }
