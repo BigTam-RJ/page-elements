@@ -158,10 +158,12 @@ a {
     position: relative;
     border-radius: 10px 10px 0 0;
     height: 225px;
+    border-bottom: 1px solid gray;
 }
 
 .image img{
     position: absolute;
+    height: 100%;
     border-radius: 10px;
     top: 50%;
     left: 50%;
