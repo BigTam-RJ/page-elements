@@ -81,8 +81,21 @@ h2{
     justify-content: center; /* mantém o elemento sempre centralizado mesmo alterando o tamanho da tela */
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1000px){ /* até 1000 pixel vai responder a estas regras */
     section{
         padding: 0 20px 0 20px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 16px;
+    }
+    img{
+        min-height: 300px;
+        object-fit: cover;
     }
 }
